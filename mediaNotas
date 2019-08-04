@@ -1,0 +1,35 @@
+print('---------------------Calcule sua média--------------------------')
+print('')
+
+#Entrada de dados por parte do usuário
+
+nota1 = float(input('Digite a nota da prova 1: '))
+print('')
+print('A nota da prova 1 é %.2f'%nota1)
+print('')
+nota2 = float(input('Digite a nota da prova 2: '))
+print('')
+print('A nota da prova 2 é %.2f'%nota2)
+print('')
+nota3 = float(input('Digite a nota da prova 3: '))
+print('')
+print('A nota da prova 3 é %.2f'%nota3)
+print('')
+
+#Processamento da média
+
+media = (nota1 + nota2 + nota3) / 3
+
+print('Sua média é %.2f'%media)
+print('')
+
+#Condições de saída
+
+if media >= 7:
+    if media == 10:
+        print("Aprovado com Distinção")
+    else:
+        print('Aprovado')
+else:
+    print('Reprovado')
+
